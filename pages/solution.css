@@ -1,0 +1,225 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(10, 28, 194, 0.253);
+    border-radius: 30px;
+}
+.navbar ul li a{
+    transition: color 0.3s ease;
+    text-shadow: 1px 1px 2px rgb(red, green, blue);
+
+}
+.navbar ul li a:hover{
+    color: brown;
+}
+.logo img{
+    width: 10%;
+    height: 50px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.logo img{
+     width: 10%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 40%;
+    
+    
+
+}
+.header li a{
+    text-decoration: none;
+    padding: 30px;
+    margin-left: 10px;
+    
+    
+}
+
+.image1{
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    margin-top: 80px;
+    background-image: url(./images/5e282372631d5-1_700x350.jpg);
+    border-radius: 30px;
+    
+    
+    
+}
+.text{
+    width: 48%;
+    height: 400px;
+    background-color: blue;
+    margin-left: 20%;
+    margin-top: 80px;
+    background-image: url(./images/images-40-Copy.jpeg);
+    font-size: larger;
+    color: white;
+}
+.header ul li a{
+    transition: color 0.3s ease;
+    text-shadow: red;
+}
+.header ul li a :hover{
+    color: red;
+}
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 120px;
+    background-color: hsla(61, 77%, 34%, 0.801);
+    padding: 15px 0;
+    
+
+}
+.banner{
+    display: flex;
+
+}
+.one{
+    padding: 20px;
+}
+.one a{
+    gap: 10px;
+    transition: background color rgb(214, 79, 79) 0.3s ease;
+    padding-bottom: 10px;
+    flex-grow: 0.5;
+}
+.explain{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(132, 90, 170);
+    background-image: url(./images/A_malnourished_child_in_an_MSF_treatment_tent_in_Dolo_Ado.jpg);
+
+}
+.container{
+    font-size:28px;
+    border-radius: 20px;
+}
+.expl2{
+    width:48% ;
+    height:400px ;
+    margin-left: 53%;
+    margin-top: -420px;
+
+}
+.container2{
+    font-size:28px;
+   font-style: italic;
+}
+.four{
+    width: 50%;
+    height:500px;
+   
+}
+
+h1 {
+    font-size: .5em;
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.548);
+    margin-top:50px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4a90e2;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    color: #777;
+    height: 590px;
+
+}/*footer style*/
+.footer {
+  background-color: #040b686c;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+  
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 120px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1 1 250px;
+  padding: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ac11e9;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #2909dd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  color: #e41010;
+  margin-top: 1070px;
+}
+

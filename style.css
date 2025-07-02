@@ -1,0 +1,261 @@
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(10, 28, 194, 0.253);
+    border-radius: 30px;
+}
+.navbar ul li a{
+    transition: color 0.3s ease;
+    text-shadow: 1px 1px 2px rgb(red, green, blue);
+
+}
+.navbar ul li a:hover{
+    color: brown;
+}
+.logo img{
+    width: 10%;
+    height: 50px;
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 40px;
+}
+.logo img{
+     width: 10%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: -30px;
+    margin-left: 40%;
+    
+    
+
+}
+.header li a{
+    text-decoration: none;
+    padding: 30px;
+    margin-left: 10px;
+    
+}
+
+.text{
+    width: 48%;
+    height: 400px;
+    margin-top: 80px;
+    font-size: 18px;
+    color:rgb(241, 241, 241);
+    text-align: start;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 60%;
+    display: flex;
+    padding-left: 10px;
+
+    
+}
+.sweet{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.decoration{
+    width: 900%;
+    height: 200px;
+    font-size: 30px;
+    margin-left: 50%;
+    color: rgb(0, 238, 255);
+
+}
+.sour{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.bitter{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.header ul li a{
+    transition: color 0.3s ease;
+    text-shadow: red;
+}
+.header ul li a :hover{
+    color: red;
+    
+
+}
+.banner{
+    display: flex;
+    background-image:linear-gradient(rgba(150, 21, 4, 0.658),rgba(4, 122, 30, 0.637)), url(./images/mother\ child.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 40px;
+
+
+}
+.one{
+    padding: 20px;
+}
+.one a{
+    gap: 10px;
+    transition: background color rgb(214, 79, 79) 0.3s ease;
+    padding-bottom: 10px;
+    flex-grow: 0.5;
+}
+.explain{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(132, 90, 170);
+    background-image:linear-gradient(rgba(9, 126, 15, 0.651),rgba(1, 0, 45, 0.555)), url(./images/face.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 1px 1px;
+
+}
+.container h1{
+    font-size: 18px;
+    ;
+}
+.container{
+    font-size:16px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: start;
+    
+}
+.expl2{
+    width:46% ;
+    height:400px ;
+    margin-left: 53%;
+    margin-top: -420px;
+    box-shadow: rgba(11, 11, 146, 0.397)3px 3px 3px 3px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.container2{
+    font-size:16px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: start;
+}
+.read{
+    background-color: rgba(255, 0, 0, 0.596);
+    cursor: pointer;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-left: 80%;
+    margin-top: 30%;
+    border-radius: 30px;
+    width: 10%;
+    height: 40px;
+    
+}
+.read :hover{
+    transition: 0.3s ease;
+}
+.container2 h2{
+    font-size: 16px;
+}
+.footer{
+    text-align: center;
+    padding: auto;
+}
+.about-hero{
+    margin-top: -30px;
+}
+.banner2{
+    background-image:linear-gradient(rgba(32, 153, 17, 0.692),rgba(98,0,2,0.45)), url(./images/Gunmen-bandit.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+.image2{
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow:rgba(47, 13, 172, 0.534) ;
+    border-radius: 10px;
+    width: 50%;
+    height: 200px;
+    text-align: start;
+    margin-left: 10px;
+
+}/* Footer Styles */
+.footer {
+    background-color: #1604686c;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+
+}
+
+.footer-column {
+  flex: 1 1 250px;
+  padding: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ac11e9;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #2909dd;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+  color: #fff;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  border-top: 1px solid #444;
+  color: #e41010;
+}
